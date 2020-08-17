@@ -1,0 +1,8 @@
+<h1 style="margin-bottom: 0; font-family: arial;"> Stupid Coaching</h1>
+<p style="margin-top: 0; font-family: arial;"> Ask your coach anything</p>
+<div style="margin-top: 20px; ">
+  <form action="/answer" method="get">
+  <input type="text" name="question" placeholder="Ask something" value="<%= params[:question] %>">
+  <input type="submit" value="Ask!">
+  </form>
+</div>
